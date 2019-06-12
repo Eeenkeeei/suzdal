@@ -71,7 +71,7 @@ findTextEl.addEventListener('input', (evt)=>{
 });
 
 addEventListener("keydown", function(event) {
-    if (event.which === 73) {
+    if (event.which === 49) {
         if (body.className === 'invisible') {
             body.className = ''
         } else {
